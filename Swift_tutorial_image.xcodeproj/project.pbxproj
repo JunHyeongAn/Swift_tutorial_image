@@ -11,6 +11,8 @@
 		C09AFDE92840A64800E83A87 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AFDE82840A64800E83A87 /* ContentView.swift */; };
 		C09AFDEB2840A64900E83A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09AFDEA2840A64900E83A87 /* Assets.xcassets */; };
 		C09AFDEE2840A64900E83A87 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09AFDED2840A64900E83A87 /* Preview Assets.xcassets */; };
+		C09AFDF52840A67500E83A87 /* CircleImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AFDF42840A67500E83A87 /* CircleImageView.swift */; };
+		C09AFDF72840AA4100E83A87 /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AFDF62840AA4100E83A87 /* MyWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		C09AFDE82840A64800E83A87 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C09AFDEA2840A64900E83A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C09AFDED2840A64900E83A87 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C09AFDF42840A67500E83A87 /* CircleImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImageView.swift; sourceTree = "<group>"; };
+		C09AFDF62840AA4100E83A87 /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +55,12 @@
 		C09AFDE52840A64800E83A87 /* Swift_tutorial_image */ = {
 			isa = PBXGroup;
 			children = (
+				C09AFDF42840A67500E83A87 /* CircleImageView.swift */,
 				C09AFDE62840A64800E83A87 /* Swift_tutorial_imageApp.swift */,
 				C09AFDE82840A64800E83A87 /* ContentView.swift */,
 				C09AFDEA2840A64900E83A87 /* Assets.xcassets */,
 				C09AFDEC2840A64900E83A87 /* Preview Content */,
+				C09AFDF62840AA4100E83A87 /* MyWebView.swift */,
 			);
 			path = Swift_tutorial_image;
 			sourceTree = "<group>";
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C09AFDE92840A64800E83A87 /* ContentView.swift in Sources */,
+				C09AFDF72840AA4100E83A87 /* MyWebView.swift in Sources */,
+				C09AFDF52840A67500E83A87 /* CircleImageView.swift in Sources */,
 				C09AFDE72840A64800E83A87 /* Swift_tutorial_imageApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
